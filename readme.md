@@ -1,8 +1,7 @@
 
 <h1 style=color:red align=center>个人文档</h1>
 -
-开始我的测试123
-
+[toc]
 ## 我的第一个测试文档
 - 大地工作
   - 点小部门
@@ -25,10 +24,10 @@
 - [ ] 未完成
 
 
-<h2 style=color:red align=center>目录</h2>
+<h2 style=color:red align=center>流程图教程目录</h2>
 
-[toc]
 
+#mermaid配合gantt使用
 
 ```mermaid
 gantt
@@ -55,7 +54,7 @@ gantt
         测试报告: 48h
 ```
 
----
+# mermaid配合squenceDiagram使用
 
 ```mermaid
 sequenceDiagram
@@ -74,6 +73,8 @@ Note over 对象C: 我自己说了算
 
 ---
 
+# sequence单独使用
+
 ```sequence
 Title:时序图示例
 客户端->服务端: 我想找你拿下数据 SYN
@@ -85,7 +86,7 @@ Note over 服务端,客户端: TCP 三次握手
 participant 观察者⌛
 ```
 
-# 自主学习flow
+# flow单独使用
 ```flow
 str=>start: 开始
 op=>operation: 学习
@@ -99,10 +100,9 @@ cond(no)->op
 
 ```
 
+# sequence单独使用
+
 ```sequence
-
-A->B:how are you?
-
-B-->>A:fine.
+a->b  : how are you?
+b-->a : I fine
 ```
-
