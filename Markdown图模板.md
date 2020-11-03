@@ -1,6 +1,7 @@
 <h1 align=center style=color:red>Markdown图</h1>
 
 # flow图
+
 ```flow
 str=>start: 开始学习
 op=>operation: 学习过程
@@ -14,6 +15,7 @@ cond(yes)->e
 ```
 
 # sequence图
+
 ```sequence
 Title:连接建立的过程
 客户主机->服务器主机: 连接请求（SYN=1,seq=client_isn）
@@ -22,6 +24,7 @@ Title:连接建立的过程
 ```
 
 # mermaid图横向
+
 ```mermaid
 graph LR
 A[方形] -->B(圆角)
@@ -34,6 +37,7 @@ A[方形] -->B(圆角)
 ```
 
 # mermaid图竖向
+
 ```mermaid
 graph TD
 A[方形] -->B(圆角)
@@ -60,6 +64,7 @@ sequenceDiagram
 ```
 
 # mermaid甘特图(gantt)
+
 ```mermaid
 gantt
 dateFormat  YYYY-MM-DD
