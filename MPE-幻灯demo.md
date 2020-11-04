@@ -16,7 +16,9 @@ presentation:
     # "none.css"
     theme: blood.css
     # 整个页面幻灯片背景的过渡样式
-    # none/fade/slide/convex/concave/zoom
+    # 放入slide data-transition="none/fade/slide/convex/concave/zoom"
+    # 注意放入垂直幻灯片无法正常显示
+
     # 显示控制面板
     controls: true
     # 显示笔记
@@ -42,7 +44,10 @@ presentation:
 <!--  slide data-notes="个人宣传专用" -->
 # 客服部资料
 ##  中国大地贵州分公司
+<!--使用标记进行进行换行-->
+
 <br/>
+
 <p>by 申亮</p>
 
 <!--  slide  -->
@@ -67,8 +72,12 @@ presentation:
 <!--  slide  -->
 # 四项条款服务
 
-<!--  slide vertical=true data-transition="convex"-->
+<!--  slide vertical=true data-transition="zoom"-->
 # 中支上线情况
 
 <!-- slide  data-transition="convex"-->
 # 谢谢
+
+<br>
+
+参考文献:[下载此文档](/readme.md)
