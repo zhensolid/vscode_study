@@ -27,7 +27,7 @@ presentation:
     overview: true
     # 鼠标滚轮切换
     mouseWheel: true
-    # 显示当前页面
+    # 显示当前页码
     slideNumber: true
     # 为导航启用键盘快捷键
     keyboard: true
@@ -41,7 +41,7 @@ presentation:
     showNotes: false
 ---
 
-<!--  slide data-notes="个人宣传专用" -->
+<!--  slide data-notes="个人宣传专用"-->
 # 客服部资料
 ##  中国大地贵州分公司
 <!--使用标记进行进行换行-->
@@ -74,8 +74,14 @@ presentation:
 
 <!--  slide vertical=true data-transition="zoom"-->
 # 中支上线情况
+<br/>
 
-<!-- slide  data-transition="convex"-->
+- 安顺
+- 遵义
+- 贵阳
+- 铜仁
+
+<!-- slide  data-transition="convex" data-notes="文献下载"-->
 # 谢谢
 
 <br>
