@@ -10,12 +10,14 @@ presentation:
   showNotes: false
   embedded: true
   hideAddressBar: true
+  #在iframe预览覆盖层中打开链接
   previewLinks: true
 ---
 <!--data-background-image=""背景图片-->
 <!--data-background-iframe="https://www.baidu.com"背景网页可互动-->
-<!-- slide data-transition="zoom" data-background-iframe="https://www.baidu.com"-->
+<!-- slide data-transition="zoom" -->
 # 增值服务
+
 <br/>
 
 #### 中国大地贵州客服服务部
