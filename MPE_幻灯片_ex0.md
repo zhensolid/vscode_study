@@ -13,7 +13,8 @@ presentation:
   previewLinks: true
 ---
 <!--data-background-image=""背景图片-->
-<!-- slide data-transition="zoom" data-background-image="" -->
+<!--data-background-iframe="https://www.baidu.com"背景网页可互动-->
+<!-- slide data-transition="zoom" -->
 # 增值服务
 <br/>
 
