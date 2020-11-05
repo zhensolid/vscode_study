@@ -6,29 +6,30 @@ presentation:
   center: true
   slideNumber: true
   enableSpeakerNotes: true
-  showNotes: true
-  embedded: false
+  #showNotes开启以后所有人都能看见笔记
+  showNotes: false
+  embedded: true
   hideAddressBar: true
   previewLinks: true
 ---
-<!-- slide -->
+<!--data-background-image=""背景图片-->
+<!-- slide data-transition="zoom" data-background-image="" -->
 # 增值服务
 <br/>
 
 #### 中国大地贵州客服服务部
 
-<br/>
-
-<!-- slide -->
+<!--data-background-color="#ffebcf"背景颜色-->
+<!-- slide data-background-color="#ffebcf"-->
 # 星级权益套餐
 
-<!-- slide vertical=true-->
+<!-- slide vertical=true -->
 
-## 星级权益套餐服务说明
+## <span style=color:red>星级权益套餐</span>服务说明
 
 <br/>
 
-![20201105143418](https://i.loli.net/2020/11/05/5ZcuDQzxFgtrwvs.png)
+@import "https://i.loli.net/2020/11/05/5ZcuDQzxFgtrwvs.png"
 
 <!-- slide -->
 # 保单服务说明
@@ -47,14 +48,14 @@ presentation:
 
 - 所有说明均可配置到相应服务
 
-<!--  slide  -->
+<!--  slide data-notes="服务均为可选,注意勾选" -->
 # 四项条款服务
 &emsp;
-- 代驾服务，年检服务，安全检测，非事故道路救援
+- 代驾服务，年检服务，安全检测，非事故道路救援<!-- .element: class="fragment" data-fragment-index="1" -->
 &emsp;
-- 必须包含商业性(车损/第三责任)
+- 必须包含商业性(车损/第三责任)<!-- .element: class="fragment" data-fragment-index="2" -->
 &emsp;
-- 所有服务项目均可自主选择（除未配置服务）
+- 所有服务项目均可自主选择（除未配置服务）<!-- .element: class="fragment" data-fragment-index="3" -->
 
 <!-- slide vertical=true-->
 
@@ -78,5 +79,5 @@ presentation:
 目前个别地区增值服务暂不可用，后续将会不断更新覆盖，详情咨询95590
 ```
 
-<!-- slide -->
+<!-- slide data-transition="convex"-->
 # 结束

@@ -40,8 +40,8 @@ presentation:
     # 如果演讲者的笔记应该对所有观众可见，则应使用标记
     showNotes: false
 ---
-
-<!--  slide data-notes="个人宣传专用"-->
+x
+<!--  slide data-notes="个人宣传专用" data-background-image="" data-transition="zoom"-->
 # 客服部资料
 ##  中国大地贵州分公司
 <!--使用标记进行进行换行-->
@@ -53,7 +53,7 @@ presentation:
 <!--  slide  -->
 # 星级权益套餐
 
-<!--  slide vertical=true-->
+<!--  slide vertical=true data-transition="zoom"-->
 # 套餐情况
 <!--片段文档 格式很重要 element:+空格+class-->
 - See [this doc](https://github.com/hakimel/reveal.js#fragments) for different fragment animations <!-- .element: class="fragment" -->
