@@ -45,7 +45,7 @@ presentation:
 
 ## 01.具体使用操作流程
 
-@import "https://i.loli.net/2020/11/05/eibIrGUPtZkW1FY.png"
+@import "https://i.loli.net/2020/11/06/3oKONS2XqbW8Fcu.png"
 
 - 所有说明均可配置到相应服务
 
