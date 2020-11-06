@@ -43,7 +43,7 @@ presentation:
 <!-- slide vertical=true-->
 ## 01.具体使用操作流程
 
-![20201105143643](https://i.loli.net/2020/11/05/eibIrGUPtZkW1FY.png)
+![20201106184716](https://i.loli.net/2020/11/06/3oKONS2XqbW8Fcu.png)
 
 - 所有说明均可配置到相应服务
 
