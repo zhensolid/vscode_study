@@ -27,6 +27,7 @@ presentation:
 <!--data-background-color="#ffebcf"背景颜色-->
 
 <!-- slide data-background-color="#ffebcf"-->
+
 # 星级权益套餐
 
 <!-- slide vertical=true -->
@@ -41,22 +42,27 @@ presentation:
 # 保单服务说明
 
 <!-- slide vertical=true-->
+
 ## 01.具体使用操作流程
 
-![20201106184716](https://i.loli.net/2020/11/06/3oKONS2XqbW8Fcu.png)
+@import "https://i.loli.net/2020/11/05/eibIrGUPtZkW1FY.png"
 
 - 所有说明均可配置到相应服务
 
 <!-- slide vertical=true-->
+
 ## 02.具体使用操作流程
 
-![20201105143824](https://i.loli.net/2020/11/05/dwWX6RHr94Nxblt.png)
+@import "https://i.loli.net/2020/11/05/dwWX6RHr94Nxblt.png"
 
 - 所有说明均可配置到相应服务
 
 <!--  slide data-notes="服务均为可选,注意勾选" -->
+
 # 四项条款服务
+
 &emsp;
+
 - 代驾服务，年检服务，安全检测，非事故道路救援<!-- .element: class="fragment" data-fragment-index="1" -->
 &emsp;
 - 必须包含商业性(车损/第三责任)<!-- .element: class="fragment" data-fragment-index="2" -->
@@ -86,4 +92,4 @@ presentation:
 ```
 
 <!-- slide data-transition="convex"-->
-# 结束
+# 教程结束
