@@ -5,6 +5,7 @@ presentation:
   progress: true
   center: true
   slideNumber: true
+  #开启演讲者模式
   enableSpeakerNotes: true
   #showNotes开启以后所有人都能看见笔记
   showNotes: false
@@ -17,7 +18,7 @@ presentation:
 <!--data-background-image=""背景图片-->
 <!--data-background-iframe="https://www.baidu.com"背景网页可互动-->
 
-<!-- slide data-transition="zoom" -->
+<!-- slide data-transition="zoom" data-notes="制作人:申亮" -->
 # 增值服务
 
 <br/>
