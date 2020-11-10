@@ -28,7 +28,9 @@
 
 `光明`、`黑暗`
 
-![测试图片](images/1.png)
+@import "images/1.png" {height=100 width=100}
+
+设置图片大小
 
 我的[^我的]
 
