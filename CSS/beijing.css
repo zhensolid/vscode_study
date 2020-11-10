@@ -6,7 +6,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-size: 10vw;
-  background-color: #ddf0e9;
+  background-color: #d7f1e8;
 }
 
 body {
@@ -17,6 +17,7 @@ body {
 
 h1, h2 {
   text-align: center;
+  font-size: 12vw;
   margin: 0; 
   font-family: 'Sen', sans-serif;
 }
