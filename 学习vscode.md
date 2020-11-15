@@ -1,6 +1,16 @@
 <h1 align=center>我的工作日记</font></h1>
 
-<!--注释看一下上方的标记-->
+<!--todo注释看一下上方的标记-->
+
+<!--todo学习折叠代码-->
+<!--?注意code标签的运用 可以删除套用其他代码-->
+<details>
+<summary>展开查看</summary>
+<pre><code>
+System.out.println("Hello to see U!");
+</code></pre>
+</details>
+<!--todo学习折叠代码-->
 
 [toc]
 

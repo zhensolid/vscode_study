@@ -42,6 +42,19 @@ presentation:
 <!-- slide -->
 # 保单服务说明
 
+<!--todo测试展开代码运用-->
+<details>
+<summary>展开查看</summary>
+<pre>
+
+<div align= center style=color:blue>01.具体使用操作流程;</div>
+
+<div align= center style=color:red>02.具体使用操作流程;</div>
+
+</pre>
+</details>
+<!--todo测试展开代码运用-->
+
 <!-- slide vertical=true-->
 
 ## 01.具体使用操作流程
