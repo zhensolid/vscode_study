@@ -46,7 +46,7 @@
                 containLabel: true
             },
             legend: {
-                data: ['1', '2', '3'],
+                data: ['1', '2', '3','4', '5', '6','7', '8', '9'],
                 right: 20,
                 top: 12,
                 textStyle: {
@@ -117,10 +117,11 @@
                 "start": 1,
                 "end": 35
             }],
+            // 显示数据图形
             series: [{
                 name: '1',
                 type: 'bar',
-                barWidth: '15%',
+                barWidth: '2%',
                 itemStyle: {
                     normal: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
@@ -138,7 +139,7 @@
             {
                 name: '2',
                 type: 'bar',
-                barWidth: '15%',
+                barWidth: '2%',
                 itemStyle: {
                     normal: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
@@ -157,7 +158,7 @@
             {
                 name: '3',
                 type: 'bar',
-                barWidth: '15%',
+                barWidth: '2%',
                 itemStyle: {
                     normal: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
@@ -173,13 +174,122 @@
                 data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
             },
             {
+                name: '4',
+                type: 'bar',
+                barWidth: '2%',
+                itemStyle: {
+                    normal: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                            offset: 0,
+                            color: '#09bcb7'
+                        }, {
+                            offset: 1,
+                            color: '#8bd46e'
+                        }]),
+                        barBorderRadius: 11,
+                    }
+                },
+                data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
+            },
+            {
+                name: '5',
+                type: 'bar',
+                barWidth: '2%',
+                itemStyle: {
+                    normal: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                            offset: 0,
+                            color: '#AAC71A'
+                        }, {
+                            offset: 1,
+                            color: '#07F597'
+                        }]),
+                        barBorderRadius: 11,
+                    }
+                },
+                data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
+            },
+            {
+                name: '6',
+                type: 'bar',
+                barWidth: '2%',
+                itemStyle: {
+                    normal: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                            offset: 0,
+                            color: '#9CAACA'
+                        }, {
+                            offset: 1,
+                            color: '#388720'
+                        }]),
+                        barBorderRadius: 11,
+                    }
+                },
+                data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
+            },
+            {
+                name: '7',
+                type: 'bar',
+                barWidth: '2%',
+                itemStyle: {
+                    normal: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                            offset: 0,
+                            color: '#2E5BBD'
+                        }, {
+                            offset: 1,
+                            color: '#D361BF'
+                        }]),
+                        barBorderRadius: 11,
+                    }
+                },
+                data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
+            },
+            {
+                name: '8',
+                type: 'bar',
+                barWidth: '2%',
+                itemStyle: {
+                    normal: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                            offset: 0,
+                            color: '#4E2F2F'
+                        }, {
+                            offset: 1,
+                            color: '#9F9F5F'
+                        }]),
+                        barBorderRadius: 11,
+                    }
+                },
+                data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
+            },
+            {
+                name: '9',
+                type: 'bar',
+                barWidth: '2%',
+                itemStyle: {
+                    normal: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                            offset: 0,
+                            color: '#856363'
+                        }, {
+                            offset: 1,
+                            color: '#7093DB'
+                        }]),
+                        barBorderRadius: 11,
+                    }
+                },
+                data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
+            },
+            {
             name: "总数",
             type: "line",
             symbolSize:10,
             symbol:'circle',
             itemStyle: {
                 normal: {
-                    color: "rgba(252,230,48,1)",
+                    // color: '#F0190F'
+                    color: "rgba(203, 220, 33,1)",
                     barBorderRadius: 0,
                     label: {
                         show: true,
