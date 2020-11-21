@@ -93,7 +93,8 @@
             },
             "dataZoom": [{//滑动图标
                 "show": true,
-                "height": 12,
+                // 滑动控件大小
+                "height": 15,
                 "xAxisIndex": [
                     0
                 ],
@@ -119,9 +120,9 @@
             }],
             // 显示数据图形
             series: [{
-                name: '1',
+                name: '观山湖',
                 type: 'bar',
-                barWidth: '2%',
+                barWidth: '3%',
                 itemStyle: {
                     normal: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
@@ -137,9 +138,9 @@
                 data: [400, 400, 300, 300, 300, 400, 400, 400, 300]
             },
             {
-                name: '2',
+                name: '六盘水',
                 type: 'bar',
-                barWidth: '2%',
+                barWidth: '3%',
                 itemStyle: {
                     normal: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
@@ -156,9 +157,9 @@
                 data: [400, 500, 500, 500, 500, 400, 400, 500, 500]
             },
             {
-                name: '3',
+                name: '毕节',
                 type: 'bar',
-                barWidth: '2%',
+                barWidth: '3%',
                 itemStyle: {
                     normal: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
@@ -174,9 +175,9 @@
                 data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
             },
             {
-                name: '4',
+                name: '安顺',
                 type: 'bar',
-                barWidth: '2%',
+                barWidth: '3%',
                 itemStyle: {
                     normal: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
@@ -192,9 +193,9 @@
                 data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
             },
             {
-                name: '5',
+                name: '铜仁',
                 type: 'bar',
-                barWidth: '2%',
+                barWidth: '3%',
                 itemStyle: {
                     normal: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
@@ -210,9 +211,9 @@
                 data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
             },
             {
-                name: '6',
+                name: '黔西南',
                 type: 'bar',
-                barWidth: '2%',
+                barWidth: '3%',
                 itemStyle: {
                     normal: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
@@ -228,9 +229,9 @@
                 data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
             },
             {
-                name: '7',
+                name: '黔南',
                 type: 'bar',
-                barWidth: '2%',
+                barWidth: '3%',
                 itemStyle: {
                     normal: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
@@ -246,9 +247,9 @@
                 data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
             },
             {
-                name: '8',
+                name: '黔东南',
                 type: 'bar',
-                barWidth: '2%',
+                barWidth: '3%',
                 itemStyle: {
                     normal: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
@@ -264,9 +265,9 @@
                 data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
             },
             {
-                name: '9',
+                name: '遵义',
                 type: 'bar',
-                barWidth: '2%',
+                barWidth: '3%',
                 itemStyle: {
                     normal: {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
@@ -275,6 +276,24 @@
                         }, {
                             offset: 1,
                             color: '#7093DB'
+                        }]),
+                        barBorderRadius: 11,
+                    }
+                },
+                data: [400, 600, 700, 700, 1000, 400, 400, 600, 700]
+            },
+            {
+                name: '贵阳',
+                type: 'bar',
+                barWidth: '3%',
+                itemStyle: {
+                    normal: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                            offset: 0,
+                            color: '#CFD818'
+                        }, {
+                            offset: 1,
+                            color: '#D74F2B'
                         }]),
                         barBorderRadius: 11,
                     }
@@ -308,15 +327,15 @@
         var app = {
             currentIndex: -1,
         };
-        //   定时刷新
+       //定时刷新
         setInterval(function () {
             var dataLen = option.series[0].data.length;
-
+            //触发图表行为（更改变图表显示的相关动态），例如图例开关legendToggleSelect, 数据区域缩放dataZoom，显示提示框showTip等等
             // 取消之前高亮的图形
             myChart.dispatchAction({
                 type: 'downplay',
                 seriesIndex: 0,
-                dataIndex: app.currentIndex
+                dataIndex: app.currentIndex  //关联前面var app
             });
             app.currentIndex = (app.currentIndex + 1) % dataLen;
             //console.log(app.currentIndex);
@@ -334,7 +353,7 @@
             });
 
             // 刷新时间
-        }, 1000);
+        }, 10000);
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
     </script>
