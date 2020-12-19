@@ -10,21 +10,22 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-
-        <form action="" method="post" name="form" top:30%>
-            <table cellpadding="0" cellspacing="0" border=1>
+        <!-- name="form"对应下面javascript -->
+        <!-- align表格居中 -->
+        <form action="" method="post" name="form" align=center>
+            <table cellpadding="0" cellspacing="0" border=1 align=center>
                 <tr>
                     <td>
                         请输入用户名：
                     </td>
                     <td>
-                        <input type="text" value="" name="username">
+                        <input type="text" value="" name="username" />
                     </td>
                 </tr>
                 <tr>
                     <td>请输入用户密码：</td>
                     <td>
-                        <input type="password" value="" name="pd">
+                        <input type="password" value="" name="pd" />
                     </td>
                 </tr>
                 <!-- 表格内识别 -->
@@ -39,7 +40,8 @@
 
         </form>
 
-    <script language="javascript">
+        <!-- 补充 type="text/javascript" -->
+    <script language="javascript"  type="text/javascript">
         function check() {
             // 第一先识别账号
             if (document.form.username.value == "admin") {
